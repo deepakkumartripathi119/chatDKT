@@ -1,0 +1,23 @@
+# --- Security (Do NOT share) ---
+.env
+
+# --- Databases ---
+*.db
+*.sqlite
+
+# --- Python Generated Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Your 'myenv' folder should not be pushed to GitHub
+myenv/
+venv/
+env/
+.venv/
+
+# --- IDE/System Folders ---
+.vscode/
+.idea/
+.DS_Store
